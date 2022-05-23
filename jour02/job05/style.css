@@ -1,0 +1,27 @@
+body {
+    min-height: 4096px;
+    min-width: 4096px;
+
+}
+@keyframes footer {
+    to {
+      background-color: rgb(0, 255, 13);
+    }
+  }
+
+
+#footer{
+
+    height: 200px;
+    width: 100%;
+    position: fixed;
+    top: 80vh;
+    background-color: rgb(76, 0, 255);
+    animation: footer 1s linear;
+    animation-play-state: paused;
+    /*scroll  l'animation*/
+    animation-delay: calc(var(--scroll) * -1s);
+    /* Ces 2 dernières propriétés nettoient les dépassement */
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}

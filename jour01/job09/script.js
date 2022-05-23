@@ -1,12 +1,12 @@
 numbers = [1, 35, 8, 16, 7, 43, 2, 54, 65, 3]
 
-order = 'asc'
+order = 'desc'
 
 tri(numbers, order)
 
 function tri(numbers, order) {
 
-    if (order == 'desc') {
+    if (order == 'asc') {
         var nombre_max = Math.max(...numbers)
 
         for (i = 0; i <= nombre_max; i++) {
@@ -27,7 +27,7 @@ function tri(numbers, order) {
         return resultat
     }
 
-    if (order == 'asc') {
+    if (order == 'desc') {
         var nombre_max = Math.max(...numbers)
         console.log(nombre_max);
 

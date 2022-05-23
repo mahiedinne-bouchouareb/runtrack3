@@ -1,7 +1,7 @@
-var nombre1 = 3
+var nombre1 = 4
 var nombre2 = 3
 
-// alert(sommeNombresPremiers(nombre1,nombre2))
+alert(sommeNombresPremiers(nombre1,nombre2))
 sommeNombresPremiers(nombre1, nombre2)
 
 // console.log(sommeNombresPremiers(resulat))

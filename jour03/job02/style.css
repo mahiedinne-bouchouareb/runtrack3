@@ -1,0 +1,17 @@
+#melangees {
+    display: flex;
+    flex-direction: row;
+}
+
+#rangees {
+    display: flex;
+    flex-direction: row;
+}
+
+div {
+    margin: auto;
+    margin: auto;
+    width: 15em;
+    display: block;
+    background-color: aqua;
+}
